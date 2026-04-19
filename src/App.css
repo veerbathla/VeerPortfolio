@@ -1,4 +1,11 @@
-.body {
-  background-color: #000000;
-  color: #ffffff;
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+#root::-webkit-scrollbar {
+  display: none;
+}
+
+html,
+body,
+#root {
+  scrollbar-width: none;
 }
