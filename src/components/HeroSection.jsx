@@ -1,6 +1,20 @@
 import React from 'react'
 
 const HeroSection = () => {
+    const scrollToSection = (id) => {
+        const element = document.getElementById(id);
+        const offset = 70;
+
+        const y =
+            element.getBoundingClientRect().top + window.pageYOffset - offset;
+
+        window.scrollTo({
+            top: y,
+            behavior: "smooth",
+        });
+
+        setOpen(false);
+    };
     return (
         <section className="
 w-full 
@@ -34,9 +48,12 @@ bg-white text-black
 rounded-md 
 transition-all duration-300 
 hover:bg-[#e5e5e5] hover:scale-[1.04]
-">
+"
+                        onClick={() => scrollToSection("contact")}
+                    >
                         Contact Me
                     </button>
+
 
                 </div>
             </div>
