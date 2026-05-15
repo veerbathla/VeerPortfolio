@@ -24,6 +24,30 @@ const projects = [
         github: "https://github.com/veerbathla/Vybz",
     },
     {
+        title: "HosteX",
+        description:
+            "A full-stack hostel management SaaS platform designed to streamline hostel operations with role-based dashboards, room management, student records, and real-time administrative workflows.",
+        techStack: {
+            Frontend: ["React.js", "Tailwind CSS", "ShadCN UI"],
+            Backend: ["Node.js", "Express.js"],
+            Database: ["MongoDB"],
+            State: ["Zustand"],
+            DataFetching: ["React Query"],
+            Authentication: ["JWT", "Role-Based Access Control"],
+        },
+        features: [
+            "Role-based authentication system",
+            "Admin & Super Admin dashboards",
+            "Hostel and room management",
+            "Student registration and approvals",
+            "Real-time data updates",
+            "Complaint and request management",
+            "Responsive modern UI",
+        ],
+        live: "https://hoste-x.vercel.app/",
+        github: "https://github.com/veerbathla/HosteX",
+    },
+    {
         title: "Yummy",
         description:
             "Frontend-only web application built with React and React-Bootstrap focusing on responsive layouts and modern UI.",
