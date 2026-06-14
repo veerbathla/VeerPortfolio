@@ -59,7 +59,7 @@ leading-tight
                     </p>
 
                     {/* 🔥 Social Links */}
-                    <div className="flex items-center gap-4 pt-3" data-aos="fade-left"  data-aos-duration="1000">
+                    <div className="flex items-center gap-4 pt-3" data-aos="fade-left"  data-aos-duration="1000 pb-4">
 
                         <span className="text-sm text-black tracking-wide">
                             Socials:
