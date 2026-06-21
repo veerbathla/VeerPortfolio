@@ -75,7 +75,7 @@ const Project = [
       "Responsive design",
     ],
 
-    live: "https://example.com",
+    live: "https://kmomsbakehouse.vercel.app",
     github: "https://github.com/veerbathla/kmoms-bakehouse",
   },
 ];
