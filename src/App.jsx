@@ -10,6 +10,7 @@ import Skills from './Pages/Skills';
 import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
 import HireMe from './Pages/HireMe';
+import AllProjects from "./pages/AllProjects";
 
 const App = () => {
     useEffect(() => {
